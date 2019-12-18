@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 // Events.
 bot.on("ready", function() {
-    bot.user.setActivity('x!help | Draconium', { type: 'STREAMING' });
+    bot.user.setActivity('x!help | Xonaria', { type: 'STREAMING' });
     console.log(`${bot.user.username} est Prêt!`);
 });
 
@@ -29,13 +29,13 @@ bot.on("message", function(message) {
             .addField(" - ping", "PING PONG.")
             .addField(" - ip", "Affiche l'IP et me Port du serveur.")
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Draconium.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
         var embedhelpadmin = new Discord.RichEmbed()
             .setAuthor("💬 Commandes de Modération.")
             .addField(" - clear", "Clear jusqu'à **99** Messages.")
             .addField(" - kick", "Expulser un membre du serveur.")
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Draconium.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
             message.channel.send(embedhelpmember);
             message.channel.send(embedhelpadmin);
     };
@@ -60,7 +60,7 @@ bot.on("message", function(message) {
 
             .setColor(0x00FFEE)
 
-            .setFooter("Ⓒ 2019 Draconium.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
 
         
             message.channel.send(embedserverip);
