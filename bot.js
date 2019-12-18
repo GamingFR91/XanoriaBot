@@ -52,9 +52,9 @@ bot.on("message", function(message) {
         
             .addField("📡État:", "En maintenance")
         
-            .addField("<a:minecraftpe:656810065843716106>Minecraft:", "1.14")
+            .addField("<:minecraftpe:656810065843716106>Minecraft:", "1.14")
         
-            .addField("<a:pixelogo:38057582237319169>Version:", "V1.5")
+            .addField("<:pixelogo:38057582237319169>Version:", "V1.5")
         
             .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
         
