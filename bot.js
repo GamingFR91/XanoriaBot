@@ -56,7 +56,7 @@ bot.on("message", function(message) {
         
             .addField("🔵Minecraft:", "1.14")
         
-            .addField(":pixelogo:Version:", "V1.5")
+            .addField("<:pixelogo:38057582237319169>Version:", "V1.5")
             .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
             .setColor(0x00FFEE)
 
