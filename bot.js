@@ -4,15 +4,6 @@ const PREFIX = process.env.PREFIX;
 
 var bot = new Discord.Client();
 
-var fs = require('fs');
-
-var statusmc = data
-
-fs.readFile('https://minecraft-api.com/api/query/motd.php?ip=game01.ouiheberg.com&port=25554', 'utf8', function(err, data) {
-    if (err) throw err;
-    console.log(data);
-});
-
 // Events.
 bot.on("ready", function() {
     bot.user.setActivity('x-help | Xanoria V1.5', { type: 'STREAMING' });
@@ -96,7 +87,7 @@ bot.on("message", function(message) {
     };
     
     if (command == "test") {
-        message.channel.send("**statusmc**");
+        message.channel.send("**pas de test pour l'instant**");
     };
 
     if(command === "clear") {
