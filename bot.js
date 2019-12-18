@@ -44,7 +44,7 @@ bot.on("message", function(message) {
 
         var embedserverip = new Discord.RichEmbed()
 
-            .setAuthor(">>Xonaria SkyBlock<<")
+            .setAuthor(">>Xanoria SkyBlock<<")
 
             .addField("🛰️IP:", "game01.ouiheberg.com")
 
@@ -52,9 +52,9 @@ bot.on("message", function(message) {
         
             
         
-            .addField(":satellite:État:", "En maintenance")
+            .addField("📡État:", "En maintenance")
         
-            .addField(":minecraftpe:Minecraft:", "1.14")
+            .addField("🔵Minecraft:", "1.14")
         
             .addField(":pixelogo:Version:", "V1.5")
             .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
