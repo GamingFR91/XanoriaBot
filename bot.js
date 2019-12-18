@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 // Events.
 bot.on("ready", function() {
-    bot.user.setActivity('x!help | Xonaria V1.5', { type: 'STREAMING' });
+    bot.user.setActivity('x-help | Xanoria V1.5', { type: 'STREAMING' });
     console.log(`${bot.user.username} est Prêt!`);
 });
 
@@ -35,7 +35,7 @@ bot.on("message", function(message) {
             .addField(" - clear", "Clear jusqu'à **99** Messages.")
             .addField(" - kick", "Expulser un membre du serveur.")
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
             message.channel.send(embedhelpmember);
             message.channel.send(embedhelpadmin);
     };
@@ -60,7 +60,7 @@ bot.on("message", function(message) {
             .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
             .setColor(0x00FFEE)
 
-            .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
 
         
             message.channel.send(embedserverip);
@@ -112,7 +112,7 @@ bot.on("message", function(message) {
         .addField("Modérateur", `<@${message.author.id}>`)
         .addField("Raison", `**\`\`\`${kReason}\`\`\`**`);
     
-        let adminlog = message.guild.channels.find(`name`, "【❗】logs");
+        let adminlog = message.guild.channels.find(`name`, "logs");
         if(!adminlog) return message.channel.send("❌ Désolé, j'ai besoin de me connecter dans un channel de logs.");
         message.guild.member(kUser).kick(kReason);
         adminlog.send(kickEmbed);
