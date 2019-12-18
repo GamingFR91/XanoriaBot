@@ -6,7 +6,7 @@ var bot = new Discord.Client();
 
 // Events.
 bot.on("ready", function() {
-    bot.user.setActivity('x!help | Xonaria', { type: 'STREAMING' });
+    bot.user.setActivity('x!help | Xonaria V1.5', { type: 'STREAMING' });
     console.log(`${bot.user.username} est Prêt!`);
 });
 
@@ -50,14 +50,14 @@ bot.on("message", function(message) {
 
             .addField("⛏️Port:", "25554")
         
-            .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
+            
         
             .addField(":satellite:État:", "En maintenance")
         
             .addField(":minecraftpe:Minecraft:", "1.14")
         
             .addField(":pixelogo:Version:", "V1.5")
-
+            .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
             .setColor(0x00FFEE)
 
             .setFooter("Ⓒ 2019 Xonaria.", bot.user.displayAvatarURL);
