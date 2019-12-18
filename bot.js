@@ -50,14 +50,14 @@ bot.on("message", function(message) {
 
             .addField("⛏️Port:", "25554")
         
-            
-        
             .addField("📡État:", "En maintenance")
         
-            .addField("🔵Minecraft:", "1.14")
+            .addField("<a:minecraftpe:656810065843716106>Minecraft:", "1.14")
         
-            .addField("<:pixelogo:38057582237319169>Version:", "V1.5")
+            .addField("<a:pixelogo:38057582237319169>Version:", "V1.5")
+        
             .addField("🌴Vote:", "https://minecraftpocket-servers.com/server/89478/")
+        
             .setColor(0x00FFEE)
 
             .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
