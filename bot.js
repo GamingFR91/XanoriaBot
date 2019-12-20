@@ -27,7 +27,7 @@ bot.on("message", function(message) {
             .setAuthor("💬 Liste des Commandes.")
             .addField(" - avatar", "Affiche ton avatar(non fonctionnel pour l'instant).")
             .addField(" - ping", "PING PONG.")
-            .addField(" - ip", "Affiche l'IP et me Port du serveur.")
+            .addField(" - ip", "Affiche l'IP et le Port du serveur.")
             .setColor(0x00FFEE)
             .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
         var embedhelpadmin = new Discord.RichEmbed()
