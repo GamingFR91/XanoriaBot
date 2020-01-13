@@ -29,13 +29,13 @@ bot.on("message", function(message) {
             .addField(" - ping", "PING PONG.")
             .addField(" - ip", "Affiche l'IP et le Port du serveur.")
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019-2020 Xanoria.", bot.user.displayAvatarURL);
         var embedhelpadmin = new Discord.RichEmbed()
             .setAuthor("💬 Commandes de Modération.")
             .addField(" - clear", "Clear jusqu'à **99** Messages.")
             .addField(" - kick", "Expulser un membre du serveur.")
             .setColor(0x00FFEE)
-            .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019-2020 Xanoria.", bot.user.displayAvatarURL);
             message.channel.send(embedhelpmember);
             message.channel.send(embedhelpadmin);
     };
@@ -60,7 +60,7 @@ bot.on("message", function(message) {
         
             .setColor(0x00FFEE)
 
-            .setFooter("Ⓒ 2019 Xanoria.", bot.user.displayAvatarURL);
+            .setFooter("Ⓒ 2019-2020 Xanoria.", bot.user.displayAvatarURL);
 
         
             message.channel.send(embedserverip);
