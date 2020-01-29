@@ -16,7 +16,7 @@ bot.on("ready", function() {
 
         maxQueueSize: "1000",
 
-        youtubeKey: 'YT_key'
+        youtubeKey: 'AIzaSyCqnPtFrgCF-t1aUGGz92nIyK9ssshNbsc'
 
       });
 });
