@@ -11,6 +11,13 @@
   "logo": "https://discord.js.org/static/logo-square.png",
   "success_url": "/welcome",
   "env": {
+    "YT_key": {
+
+      "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
+
+      "value": ""
+
+    },
     "BOT_TOKEN": {
       "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
       "value": ""
